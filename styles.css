@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2020/12/29/13/11/star-of-david-5870547_1280.jpg");
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    padding: 16px;
+}
+.top > a {
+    color: white;
+    text-decoration: none;
+}
+
+.top > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 90vh;
+    position: relative;
+    bottom: 50px;
+}
+
+.main > h1 {
+    font-size: 50px;
+}
+
+.main > p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.main .bar {
+    background-color: white;
+    /* border: 2px solid silver; */
+    width: 50%;
+    height: 10px;
+    left: 12px;
+    position: relative;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.main .bar .blue {
+    background-color: rgba(86, 167, 238, 0.692);
+    width: 75%;
+    height: 10px;
+    position: absolute;
+}
+
+.main .percent {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-bottom: 30px;
+}
+
+.main .button {
+    /* border: 1px solid grey; */
+    background-color: rgb(113, 185, 249);
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.main .button:hover {
+    background-color: rgb(87, 174, 250);
+}
+
+.main .logo {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .logo > a {
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid;
+    width: 32px;
+    height: 32px;
+    font-size: 26px;
+    border-radius: 50%;
+    color: white;
+}
+
+footer {
+    border-top: 1px solid white;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
